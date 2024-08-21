@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url(./variables.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1090px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+header {
+  background-color: var(--blue-white);
+  padding-top: 23px;
+  padding-bottom: 116px;
+}
+
+.dark_btn {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--black);
+  padding: 17px 41px;
+  border-radius: 5px;
+}
+
+/* Start Nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  div {
+    ul {
+      display: flex;
+      gap: 45px;
+
+      a {
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 17.4px;
+        text-align: left;
+        color: var(--black);
+      }
+    }
+  }
+
+  .nav_phone {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--black);
+  }
+}
+/* End Nav */
+
+/* Start Banner */
+#banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  align-items: center;
+
+  h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50.4px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    color: var(--black);
+  }
+
+  h3 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    color: var(--black);
+  }
+
+  p {
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.4px;
+    letter-spacing: 1px;
+    max-width: 433px;
+    color: var(--black);
+    margin-bottom: 50px;
+
+    span {
+      color: var(--blue);
+      text-decoration-line: underline;
+    }
+  }
+}
+
+#banner > div:first-child {
+  max-width: 568px;
+}
+/* End Banner */
