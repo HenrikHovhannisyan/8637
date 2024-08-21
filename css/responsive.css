@@ -1,0 +1,15 @@
+/* lg - For large devices */
+@media screen and (max-width: 992px) {
+}
+
+/* md - For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+/* sm */
+@media screen and (max-width: 576px) {
+}
+
+/* xs - For small devices */
+@media screen and (max-width: 350px) {
+}
