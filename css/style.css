@@ -23,8 +23,12 @@ img {
 
 header {
   background-color: var(--blue-white);
+  /* background-image: url(../images/bg-banner.png); */
+  background-repeat: no-repeat;
+  background-position: right;
   padding-top: 23px;
   padding-bottom: 116px;
+  position: relative;
 }
 
 .dark_btn {
@@ -44,29 +48,44 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
 
-  div {
-    ul {
-      display: flex;
-      gap: 45px;
+nav .nav-links {
+  display: flex;
+  ul {
+    display: flex;
+    gap: 45px;
 
-      a {
-        font-family: Poppins;
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 17.4px;
-        text-align: left;
-        color: var(--black);
-      }
+    a {
+      font-family: Poppins;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 17.4px;
+      text-align: left;
+      color: var(--black);
     }
   }
+}
 
-  .nav_phone {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: var(--black);
-  }
+.nav_phone {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--black);
+}
+
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.burger span {
+  width: 25px;
+  height: 3px;
+  background-color: var(--black);
 }
 /* End Nav */
 
@@ -118,3 +137,41 @@ nav {
   max-width: 568px;
 }
 /* End Banner */
+
+/* Start Info section */
+#info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px;
+  background-color: var(--blue);
+  position: absolute;
+  bottom: -80px;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 5px;
+
+  h2 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    color: var(--white);
+  }
+
+  p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    color: var(--white);
+  }
+}
+
+#info > div:nth-child(2) {
+  border-left: 1px solid #1d4782;
+  border-right: 1px solid #1d4782;
+}
+/* End Info section */
