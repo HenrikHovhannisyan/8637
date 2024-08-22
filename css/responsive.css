@@ -57,6 +57,20 @@
   #lr p {
     font-size: 16px;
   }
+
+  #is_erc .container {
+    max-width: 90%;
+  }
+
+  #is_erc .info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #is_erc .dark_btn {
+    padding: 12px 24px;
+    font-size: 12px;
+  }
 }
 
 /* md - For medium devices */
@@ -182,7 +196,7 @@
   }
 
   #types .boxes > div {
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
   }
 
   #types h2 {
@@ -193,6 +207,28 @@
   #types p {
     font-size: 16px;
     line-height: 20px;
+  }
+
+  #is_erc .title h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  #is_erc .title h4 {
+    font-size: 14px;
+  }
+
+  #is_erc .info h4 {
+    font-size: 18px;
+  }
+
+  #is_erc .info p {
+    font-size: 15px;
+  }
+
+  #is_erc .dark_btn {
+    padding: 10px 20px;
+    font-size: 12px;
   }
 }
 
@@ -314,6 +350,28 @@
     font-size: 14px;
     line-height: 18px;
   }
+
+  #is_erc .title h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  #is_erc .title h4 {
+    font-size: 13px;
+  }
+
+  #is_erc .info h4 {
+    font-size: 16px;
+  }
+
+  #is_erc .info p {
+    font-size: 14px;
+  }
+
+  #is_erc .dark_btn {
+    padding: 8px 15px;
+    font-size: 10px;
+  }
 }
 
 /* xs - For small devices */
@@ -418,5 +476,27 @@
   #types .dark_btn {
     font-size: 12px;
     padding: 10px 15px;
+  }
+
+  #is_erc .title h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  #is_erc .title h4 {
+    font-size: 12px;
+  }
+
+  #is_erc .info h4 {
+    font-size: 14px;
+  }
+
+  #is_erc .info p {
+    font-size: 12px;
+  }
+
+  #is_erc .dark_btn {
+    padding: 6px 12px;
+    font-size: 8px;
   }
 }
