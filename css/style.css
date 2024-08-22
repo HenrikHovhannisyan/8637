@@ -245,3 +245,57 @@ nav .nav-links {
   }
 }
 /* End Skip section */
+
+/* Start lr section */
+#lr {
+  .left,
+  .right {
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    .container {
+      display: flex;
+      gap: 15px;
+    }
+  }
+
+  .right {
+    background-color: var(--cyan);
+  }
+
+  h4 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: var(--blue);
+  }
+
+  h2 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.4px;
+    text-align: left;
+    color: var(--black);
+  }
+
+  p {
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    color: var(--grey);
+  }
+
+  .mt-3 {
+    margin-top: 32px;
+  }
+
+  .mb-5 {
+    margin-bottom: 50px;
+  }
+}
+/* End lr section */

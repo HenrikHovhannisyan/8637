@@ -33,6 +33,30 @@
   #skip .boxes {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  #lr .container {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  #lr .left,
+  #lr .right {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #lr h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  #lr h4 {
+    font-size: 14px;
+  }
+
+  #lr p {
+    font-size: 16px;
+  }
 }
 
 /* md - For medium devices */
@@ -129,6 +153,29 @@
     font-size: 16px;
     line-height: 26px;
   }
+
+  #lr .left,
+  #lr .right {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #lr h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  #lr h4 {
+    font-size: 14px;
+  }
+
+  #lr p {
+    font-size: 15px;
+  }
+
+  #lr .container {
+    max-width: 100%;
+  }
 }
 
 /* sm */
@@ -190,6 +237,36 @@
     font-size: 15px;
     line-height: 25px;
   }
+
+  #lr .left,
+  #lr .right {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #lr h2 {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  #lr h4 {
+    font-size: 13px;
+  }
+
+  #lr p {
+    font-size: 14px;
+  }
+
+  #lr .dark_btn {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  #lr .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 /* xs - For small devices */
@@ -242,5 +319,37 @@
   #skip .boxes p {
     font-size: 14px;
     line-height: 22px;
+  }
+
+  #lr .left,
+  #lr .right {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #lr h2 {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  #lr h4 {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #lr p {
+    font-size: 13px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  #lr .dark_btn {
+    font-size: 10px;
+    padding: 8px 15px;
+  }
+
+  #lr .container {
+    padding: 0 10px;
   }
 }
