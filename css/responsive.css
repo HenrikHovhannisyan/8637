@@ -176,6 +176,24 @@
   #lr .container {
     max-width: 100%;
   }
+
+  #types .boxes {
+    flex-direction: column;
+  }
+
+  #types .boxes > div {
+    margin-bottom: 20px;
+  }
+
+  #types h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  #types p {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 /* sm */
@@ -267,6 +285,35 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  #types {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  #types h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  #types h4 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  #types .boxes > div {
+    padding: 20px;
+  }
+
+  #types h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  #types p {
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 
 /* xs - For small devices */
@@ -351,5 +398,25 @@
 
   #lr .container {
     padding: 0 10px;
+  }
+
+  #types h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  #types h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  #types p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  #types .dark_btn {
+    font-size: 12px;
+    padding: 10px 15px;
   }
 }
