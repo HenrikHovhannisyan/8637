@@ -25,6 +25,14 @@
     bottom: 0;
     transform: translate(0);
   }
+
+  #skip .title {
+    grid-template-columns: 1fr;
+  }
+
+  #skip .boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* md - For medium devices */
@@ -86,6 +94,41 @@
     font-size: 14px;
     line-height: 22px;
   }
+
+  #skip .title {
+    grid-template-columns: 1fr;
+  }
+
+  #skip .boxes {
+    grid-template-columns: 1fr;
+  }
+
+  #skip p {
+    margin-bottom: 50px;
+  }
+
+  #skip .title h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  #skip .title h3 {
+    font-size: 18px;
+  }
+
+  #skip .boxes div {
+    padding: 20px;
+  }
+
+  #skip .boxes h3 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  #skip .boxes p {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 
 /* sm */
@@ -120,6 +163,33 @@
   #info {
     padding: 15px;
   }
+
+  #skip {
+    padding-top: 80px;
+    padding-bottom: 75px;
+  }
+
+  #skip p {
+    font-size: 11px;
+  }
+
+  #skip .title h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  #skip .title h3 {
+    font-size: 16px;
+  }
+
+  #skip .boxes h3 {
+    font-size: 20px;
+  }
+
+  #skip .boxes p {
+    font-size: 15px;
+    line-height: 25px;
+  }
 }
 
 /* xs - For small devices */
@@ -149,5 +219,28 @@
 
   #info p {
     font-size: 12px;
+  }
+
+  #skip {
+    padding-top: 60px;
+    padding-bottom: 55px;
+  }
+
+  #skip .title h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  #skip .title h3 {
+    font-size: 14px;
+  }
+
+  #skip .boxes h3 {
+    font-size: 18px;
+  }
+
+  #skip .boxes p {
+    font-size: 14px;
+    line-height: 22px;
   }
 }
