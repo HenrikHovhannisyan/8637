@@ -390,7 +390,7 @@ nav .nav-links {
 
 /* Start is_erc section */
 #is_erc {
-  background-color: var(--blue-white);
+  background-color: var(--bg-white);
   padding-top: 64px;
 
   .title {
@@ -556,7 +556,7 @@ nav .nav-links {
 #why {
   padding-top: 64px;
   padding-bottom: 64px;
-  background-color: var(--blue-white);
+  background-color: var(--bg-white);
 
   h4 {
     font-family: Poppins;
@@ -737,7 +737,7 @@ nav .nav-links {
 
 /* Start additional section */
 #additional {
-  background-color: var(--blue-white);
+  background-color: var(--bg-white);
   padding-top: 64px;
   padding-bottom: 64px;
 
@@ -811,3 +811,44 @@ nav .nav-links {
   }
 }
 /* End additional section */
+
+/* Start stop section */
+#stop {
+  background-color: var(--blue-white);
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 41px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    div {
+      display: grid;
+      gap: 42px;
+
+      h2 {
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 55.68px;
+        text-align: left;
+        color: var(--blue);
+      }
+
+      p {
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 29px;
+        text-align: left;
+        color: var(--grey);
+      }
+    }
+  }
+}
+/* End stop section */

@@ -298,6 +298,27 @@
     flex-direction: column;
     gap: 30px;
   }
+
+  #stop .container {
+    grid-template-columns: 1fr;
+
+    div {
+      h2 {
+        font-size: 36px;
+        line-height: 42px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+
+    a.dark_btn {
+      align-self: center;
+      margin-bottom: 15px;
+    }
+  }
 }
 
 /* sm */
@@ -478,6 +499,22 @@
 
   #why .item p:last-of-type {
     font-size: 12px;
+  }
+
+  #stop .container {
+    gap: 20px;
+
+    div {
+      h2 {
+        font-size: 28px;
+        line-height: 34px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
   }
 }
 
