@@ -719,5 +719,95 @@ nav .nav-links {
       }
     }
   }
+
+  .tel {
+    margin-top: 32px;
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20.74px;
+    text-align: center;
+
+    a {
+      color: var(--blue);
+    }
+  }
 }
 /* End faq section */
+
+/* Start additional section */
+#additional {
+  background-color: var(--blue-white);
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+  h2 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32.04px;
+    text-align: left;
+    color: var(--black);
+  }
+
+  .boxes {
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+
+    .item {
+      background-color: var(--white);
+      padding: 32px;
+      border-radius: 5px;
+      max-width: 352px;
+
+      h3 {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20.02px;
+        text-align: left;
+        color: var(--black);
+        margin-bottom: 8px;
+      }
+
+      p {
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: left;
+        color: var(--grey);
+        margin-bottom: 16px;
+        text-transform: uppercase;
+      }
+
+      img {
+        display: block;
+        margin-bottom: 54px;
+      }
+
+      a > img {
+        display: inline;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .text {
+    margin-top: 64px;
+    li {
+      list-style-type: decimal;
+      font-family: Mulish;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 22px;
+      text-align: left;
+      color: var(--grey);
+      margin-bottom: 36px;
+      margin-left: 15px;
+    }
+  }
+}
+/* End additional section */
