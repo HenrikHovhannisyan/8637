@@ -71,6 +71,17 @@
     padding: 12px 24px;
     font-size: 12px;
   }
+
+  #our_erc .title h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  #our_erc .title h4 {
+    font-size: 14px;
+  }
+  #our_erc .info {
+    flex-direction: column;
+  }
 }
 
 /* md - For medium devices */
@@ -230,6 +241,17 @@
     padding: 10px 20px;
     font-size: 12px;
   }
+
+  #our_erc .title h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  #our_erc .title h4 {
+    font-size: 13px;
+  }
+  #our_erc .info h4 {
+    font-size: 18px;
+  }
 }
 
 /* sm */
@@ -371,6 +393,17 @@
   #is_erc .dark_btn {
     padding: 8px 15px;
     font-size: 10px;
+  }
+
+  #our_erc .title h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  #our_erc .title h4 {
+    font-size: 12px;
+  }
+  #our_erc .info h4 {
+    font-size: 14px;
   }
 }
 

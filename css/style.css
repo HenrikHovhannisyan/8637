@@ -403,6 +403,7 @@ nav .nav-links {
       line-height: 20px;
       color: var(--blue);
       margin-bottom: 20px;
+      text-transform: uppercase;
     }
 
     h2 {
@@ -449,3 +450,104 @@ nav .nav-links {
   }
 }
 /* End is_erc section */
+
+/* Start our_erc section */
+#our_erc {
+  padding-top: 64px;
+
+  .title {
+    text-align: center;
+
+    h4 {
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 20px;
+      color: var(--blue);
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-family: Poppins;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 46.4px;
+      color: var(--black);
+      margin-bottom: 64px;
+    }
+  }
+
+  .info {
+    display: flex;
+    gap: 40px;
+
+    .our_erc_faq {
+      .item {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 3px solid #cdd6da40;
+
+        .our_erc_question {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          cursor: pointer;
+
+          span {
+            font-family: Poppins;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 20px;
+            text-align: left;
+            min-width: 47px;
+            min-height: 47px;
+            width: 47px;
+            height: 47px;
+            box-sizing: border-box;
+            border: 1px solid var(--black);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          span.active {
+            background-color: var(--blue);
+            color: var(--white);
+            border-color: var(--white);
+          }
+          p {
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 23.2px;
+            text-align: left;
+            color: var(--blue);
+          }
+        }
+
+        .our_erc_answer {
+          font-family: Mulish;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 29px;
+          text-align: left;
+          color: var(--grey);
+          display: none;
+          padding-left: 63px;
+
+          span {
+            font-size: 17px;
+            text-decoration: underline;
+            color: var(--blue);
+          }
+        }
+      }
+
+      .item:nth-last-child(-n + 1) {
+        border: 0;
+      }
+    }
+  }
+}
+/* End our_erc section */
