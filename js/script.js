@@ -26,3 +26,20 @@ document.querySelectorAll(".our_erc_question").forEach((question) => {
     }
   });
 });
+
+document.querySelectorAll("#faq .item h3").forEach((item) => {
+  item.addEventListener("click", () => {
+    const siblings = item.parentElement.querySelectorAll("p, ul");
+    const icon = item.querySelector("span");
+
+    siblings.forEach((content) => {
+      if (content.style.display === "block") {
+        content.style.display = "none";
+        icon.textContent = "+";
+      } else {
+        content.style.display = "block";
+        icon.textContent = "-";
+      }
+    });
+  });
+});
