@@ -551,3 +551,84 @@ nav .nav-links {
   }
 }
 /* End our_erc section */
+
+/* Start why section */
+#why {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: var(--blue-white);
+
+  h4 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: var(--blue);
+    text-transform: uppercase;
+    margin-bottom: 19px;
+  }
+
+  h2 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40.05px;
+    text-align: center;
+    color: var(--black);
+  }
+
+  .boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 36px;
+
+    .item {
+      margin-top: 50px;
+
+      div {
+        background-color: var(--white);
+        border-radius: 5px;
+        padding: 44px 30px;
+        margin-bottom: 20px;
+
+        h3 {
+          font-family: Poppins;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 29.28px;
+          color: var(--blue);
+          margin-bottom: 16px;
+        }
+
+        p {
+          font-family: Mulish;
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 20.74px;
+          color: var(--grey);
+        }
+      }
+
+      h3 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+        color: var(--blue);
+        margin-bottom: 8px;
+      }
+
+      p {
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: center;
+        color: var(--grey);
+      }
+    }
+  }
+}
+/* End why section */

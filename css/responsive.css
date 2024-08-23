@@ -82,6 +82,15 @@
   #our_erc .info {
     flex-direction: column;
   }
+
+  #why .boxes {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  #why h2 {
+    font-size: 36px;
+  }
 }
 
 /* md - For medium devices */
@@ -252,6 +261,34 @@
   #our_erc .info h4 {
     font-size: 18px;
   }
+  #why h4 {
+    font-size: 14px;
+  }
+
+  #why h2 {
+    font-size: 32px;
+  }
+
+  #why .boxes {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  #why .item {
+    margin-top: 40px;
+  }
+
+  #why .item div {
+    padding: 36px 24px;
+  }
+
+  #why .item h3 {
+    font-size: 22px;
+  }
+
+  #why .item p {
+    font-size: 16px;
+  }
 }
 
 /* sm */
@@ -405,6 +442,34 @@
   #our_erc .info h4 {
     font-size: 14px;
   }
+
+  #why h4 {
+    font-size: 12px;
+  }
+
+  #why h2 {
+    font-size: 28px;
+  }
+
+  #why .item div {
+    padding: 28px 20px;
+  }
+
+  #why .item h3 {
+    font-size: 20px;
+  }
+
+  #why .item p {
+    font-size: 14px;
+  }
+
+  #why .item h3:last-of-type {
+    font-size: 20px;
+  }
+
+  #why .item p:last-of-type {
+    font-size: 12px;
+  }
 }
 
 /* xs - For small devices */
@@ -531,5 +596,29 @@
   #is_erc .dark_btn {
     padding: 6px 12px;
     font-size: 8px;
+  }
+  #why {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  #why h4 {
+    font-size: 10px;
+  }
+
+  #why h2 {
+    font-size: 24px;
+  }
+
+  #why .item div {
+    padding: 20px 16px;
+  }
+
+  #why .item h3 {
+    font-size: 18px;
+  }
+
+  #why .item p {
+    font-size: 12px;
   }
 }
